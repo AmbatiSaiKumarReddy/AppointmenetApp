@@ -1,0 +1,127 @@
+/* Write your CSS here */
+
+.appointment-app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+}
+.heading {
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.hide-and-seek {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .hide-and-seek {
+    align-items: center;
+  }
+}
+
+.appointment-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-image {
+    height: 500px;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hide-and-seek {
+    flex-direction: row;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  border: dotted 1px grey;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.result-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-title {
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.label {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
+
+.input-date {
+  height: 40px;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.addButton {
+  margin-top: 20px;
+  color: white;
+  background-color: #9796f0;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.star-button {
+  height: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: solid 1px #9796f0;
+  color: #9796f0;
+}
+.star-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .list-container {
+    flex-direction: row;
+  }
+}
+
+.active {
+  background-color: #9796f0;
+}

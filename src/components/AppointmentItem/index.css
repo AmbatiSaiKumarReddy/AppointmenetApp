@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.list-item {
+  list-style-type: none;
+
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.name-star {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img1 {
+  height: 30px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.list-div {
+  flex-direction: column;
+
+  border: solid 1px grey;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
